@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url(https://i.pinimg.com/736x/42/54/eb/4254eb67e7af4ee9b374af588089a2c4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #2f4f4f;
+  padding: 1rem;
+  line-height: 1.6;
+  width: 100vw;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px  20px 20px 20px; */
+  background-color: lightslategray;
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  margin-top: -1.5%;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding-right: 450px;
+}
+
+.nav-links a {
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00f0ff;
+}
+
+
+.head {
+  text-align: center;
+  color: white;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+.home-page {
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  color: #2e8b57;
+  margin-bottom: 0.5rem;
+}
+
+.card h3 {
+  margin-top: 1rem;
+  color: #444;
+}
+
+.card ul,
+.card ol {
+  margin-left: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+
+
+
+.footer-container {
+    background: linear-gradient(to bottom, lightslategray, gray 100%);
+    display: flex;
+    align-items: flex-end;
+    width: 100vw;
+    height: 15vh;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.dmk-logo {
+    height: 25vh;
+    vertical-align: middle;
+    margin-bottom: -3%;
+    padding: 30px;
+}
+
+.footer-legal {
+    font-size: 20px;
+    color: black;
+    margin: 20px 0 0 0;
+    line-height: 1.5;
+}
+
+.board {
+    position: relative;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 100px;
+    filter: brightness(2px);
+}
+
+.board h1{
+  color:white;
+  padding-left: 30%;
+  padding-bottom: 20px;
+
+}
