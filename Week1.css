@@ -1,0 +1,237 @@
+
+@import url('https://fonts.cdnfonts.com/css/poppins');
+#logoweek1{
+    width: 5vw;
+    color: white;
+}
+body{
+        font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    font-style: normal;
+    background-color: rgb(247,231,197);
+}
+nav {
+    background-color:rgb(247,231,197);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    margin-left: 25px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    position: relative;
+}
+.nav-links a:hover {
+    color: #3498DB;
+}
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #3498DB;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+.nav-links a:hover::after {
+    width: 100%;
+}
+.nav-links li {
+    margin-left: 25px;
+}
+.nav-links a {
+    color:black;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    position: relative;
+}
+.nav-links a:hover {
+    color: #3498DB;
+}
+header {
+    background-color: rgb(247,231,197);
+    color:black;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 10px rgb(238,178,166);
+    animation: fadeIn 1s ease-out;
+    height: 200px;
+    border-radius: 10px;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+header img{
+position: relative;
+top: 50px;
+right: 780px;
+width: 150px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+header h1{
+position: relative;
+bottom: 250px;
+right: 800px;
+}
+.stars{
+  color: rgb(236,196,55);
+   margin-left: 2cm;
+}
+h1{
+   margin-left: 2cm;
+   margin-top: 3cm;
+}
+.firstPart{
+    display: flex;
+    gap: 8cm;
+    text-align: justify;
+    margin-left: 2cm;
+    margin-top: 20px;
+}
+.happyProject img{
+    transform:rotate(270deg);
+    width: 20vw;
+    box-shadow: 5px 5px 5px 5px rgb(176,121,8);
+}
+.thoughts{
+    margin-top: 150px;
+}
+h2{
+    text-align: center;
+}
+.Materials{
+    display: flex;
+    margin-top: 3cm;
+    margin-left: 3.5cm;
+}
+.sticks img{
+    width: 40%;
+    box-shadow:5px 5px 5px 5px rgb(238,178,166) ;
+}
+.boxes img{
+    width: 55%;
+    box-shadow:5px 5px 5px 5px rgb(238,178,166) ;
+}
+.thread img{
+    width: 60%;
+    box-shadow:5px 5px 5px 5px rgb(238,178,166) ;
+}
+.tape img{
+      width: 60%;
+    box-shadow:5px 5px 5px 5px rgb(238,178,166) ;
+}
+.process{
+    display: flex;
+    gap: 10cm;
+}
+.process1{
+    width: 15%;
+}
+.process2{
+    width: 15%;
+    height: 10%;
+}
+footer{
+    background-color: black;
+    padding: 15px;
+}
+.likeMyPage a{
+    text-decoration: none;
+    color:rgb(238,178,166);
+}
+.likeMyPage{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    padding: 15px;
+}
+hr{
+    position: relative;
+    max-width: 96%;
+    height: 1px;
+    background-color: black;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: flex;
+    gap: 15cm;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer p{
+    margin-left: 20px;
+}
+.process{
+    gap: 3cm;
+    display: flex;
+    padding-top: 20px;
+}
+.processone img{
+        width: 85%;
+    box-shadow:3px 3px 3px 3px rgb(201, 138, 12)
+}
+.processtwo img{
+        width: 85%;
+    box-shadow:3px 3px 3px 3px rgb(201, 138, 12)
+}
+.processthree img{
+    width: 85%;
+    box-shadow:3px 3px 3px 3px rgb(201, 138, 12)
+}
+.processfour img{
+        width: 85%;
+    box-shadow:3px 3px 3px 3px rgb(201, 138, 12)
+}
+.processfive img{
+        width: 85%;
+    box-shadow:3px 3px 3px 3px rgb(201, 138, 12)
+}
+#video{  
+top: 50px;
+margin-left: 20cm;
+width: 20vw;
+height: 20vh;
+}
+
+
